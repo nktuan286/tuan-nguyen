@@ -29,15 +29,15 @@ A simple book management system built with Node.js, Express, and MongoDB.
 
 ## Running the Application
 
-### Development Mode
-    ```bash
-    npm run dev
-    ```
+1. Development Mode
+   ```bash
+   npm run dev
+   ```
 
-### Production Mode
-    ```bash
-    npm start
-    ```
+2. Production Mode
+   ```bash
+   npm start
+   ```
 
 The application will be available at `http://localhost:5000`
 
@@ -45,6 +45,7 @@ The application will be available at `http://localhost:5000`
 
 ### Books
 - `GET /api/books` - Get all books
+- `GET /api/books?title=Sample&author=john` - Filter books with title, author, publishedYear, minPrice and maxPrice
 - `GET /api/books/:id` - Get a specific book
 - `POST /api/books` - Create a new book
 - `PUT /api/books/:id` - Update a book
@@ -54,20 +55,11 @@ The application will be available at `http://localhost:5000`
 
  ```bash
     {
-    "title": "Sample Book",
-    "author": "John Doe",
-    "isbn": "978-3-16-148410-0",
-    "publishedYear": 2023
+      "title": "Sample Book",
+      "author": "John Doe",
+      "description": "Desc"
+      "isbn": "978-3-16-148410-0",
+      "publishedYear": 2023,
+      "price": 123
     }
 ```
-
-## Project Structure
-book-management/
-├── src/
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ └── app.js
-├── tests/
-├── .env
-└── package.json
