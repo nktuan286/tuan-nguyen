@@ -32,8 +32,7 @@ Currently, two official plugins are available:
    ```
 
 ## Screenshots
-![image](https://github.com/user-attachments/assets/7c9cfa98-c34b-4f08-9b90-7c745ef9ab53)
-
+![image](https://github.com/user-attachments/assets/c054dbc9-8148-47bf-a903-6fdf0465be79)
 
 ## Expanding the ESLint configuration
 
