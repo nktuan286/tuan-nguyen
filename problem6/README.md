@@ -79,8 +79,7 @@
   `updated_at`  | TIMESTAMP | Last score update time
 
 ## Sequence Diagram
-![image](https://github.com/user-attachments/assets/eba7806d-6293-4dbd-b14e-eb20a50e29e1)
-
+![image](https://github.com/user-attachments/assets/8813da12-b992-4f51-8a66-bcd3e9ab1a16)
 
 ## Comments and Recommendations for Improvement
 1. **Scalability**: Consider caching the top 10 scores in memory (e.g., Redis) to reduce database load and improve response time.
